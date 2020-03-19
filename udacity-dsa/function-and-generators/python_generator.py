@@ -29,7 +29,7 @@ incorrect5 = [[1, 1.5],
 # Define a function check_sudoku()
 
 
-def check_sudokuy():
+def check_sudokuy(sudoku_input):
     """
     Define a procedure check_sudoku that takes as input a square list of lists representing an n x n sudoku puzzle solution and returns the boolean True
     If the input is a valid sudoku square and returns the boolean False otherwise.
@@ -37,4 +37,7 @@ def check_sudokuy():
     - Each column of the square contains each of the whole numbers from 1 to n exactly once.
     - Each row of the square contains each of the whole numbers from 1 to n exactly once.
     """
-    return 'Work in Progress.'
+    #return 'Work in Progress.'
+    return sudoku_input[1]
+
+print(check_sudokuy(correct))

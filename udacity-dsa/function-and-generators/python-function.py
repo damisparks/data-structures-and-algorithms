@@ -1,4 +1,5 @@
 def prod(a, b):
+    """ Multiplication of 2 numbers """
     return a * b
 
 
