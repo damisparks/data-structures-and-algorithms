@@ -1,0 +1,9 @@
+
+## Asymptotic analysis 
+Asymptotic analysis is a method that allows algorithms to be compared independently
+of a particular programming language or hardware. 
+With this method we can conclude, some algorithms are more efficient than others.
+
+## Binary search
+Binary search is an efficient algorithm for finding an item from a sorted list of items.
+
